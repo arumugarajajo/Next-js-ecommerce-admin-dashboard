@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
@@ -11,8 +11,11 @@ const LeftSideBar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="h-screen left-0 top-0 sticky p-10 flex flex-col gap-16 bg-blue-2 shadow-xl max-lg:hidden">
-      <Image src="/logo.png" alt="logo" width={150} height={70} />
+    <div className="h-screen left-0 top-0 sticky p-10 flex flex-col gap-16 bg-white shadow-xl max-lg:hidden">
+      {/* <Image src="/logo.png" alt="logo" width={150} height={70} /> */}
+      <h1 className="font-kaushan-script-regular font-bold md:text-[30px] text-blue-700 ">
+        Desire Dazzle
+      </h1>
 
       <div className="flex flex-col gap-12">
         {navLinks.map((link) => (
