@@ -14,7 +14,7 @@ const TopBar = () => {
 
   return (
     <div className="sticky top-0 z-20 w-full flex justify-between items-center px-8 py-4 bg-blue-2 shadow-xl lg:hidden">
-      <h1 className="font-kaushan-script-regular font-bold text-blue-600 md:text-[40px]">
+      <h1 className="font-kaushan-script-regular font-bold text-blue-600 md:text-[30px]">
         Desire Dazzle
       </h1>
 
